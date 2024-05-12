@@ -1,0 +1,111 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/changepassword/changepassword",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/recharge/recharge",
+    "pages/address/detail",
+    "pages/address/list",
+    "pages/fanghuzhishi/list",
+    "pages/fanghuzhishi/list2",
+    "pages/fanghuzhishi/add-or-update",
+    "pages/fanghuzhishi/detail",
+    "pages/fanghuzhishiCollection/list",
+    "pages/fanghuzhishiCollection/list2",
+    "pages/fanghuzhishiCollection/add-or-update",
+    "pages/fanghuzhishiCollection/detail",
+    "pages/fanghuzhishiLiuyan/list",
+    "pages/fanghuzhishiLiuyan/list2",
+    "pages/fanghuzhishiLiuyan/add-or-update",
+    "pages/fanghuzhishiLiuyan/detail",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/jiance/list",
+    "pages/jiance/list2",
+    "pages/jiance/add-or-update",
+    "pages/jiance/detail",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/xinguankangyuan/list",
+    "pages/xinguankangyuan/list2",
+    "pages/xinguankangyuan/add-or-update",
+    "pages/xinguankangyuan/detail",
+    "pages/xinguankangyuanCollection/list",
+    "pages/xinguankangyuanCollection/list2",
+    "pages/xinguankangyuanCollection/add-or-update",
+    "pages/xinguankangyuanCollection/detail",
+    "pages/xinguankangyuanLiuyan/list",
+    "pages/xinguankangyuanLiuyan/list2",
+    "pages/xinguankangyuanLiuyan/add-or-update",
+    "pages/xinguankangyuanLiuyan/detail",
+    "pages/xinguankangyuanOrder/list",
+    "pages/xinguankangyuanOrder/confirm",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "新冠抗原自测平台小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#8ed8f3",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fanghuzhishi/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "防护知识"
+      },
+      {
+        "pagePath": "pages/xinguankangyuan/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "新冠抗原"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
